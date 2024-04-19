@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    #login{
+        width: 80vw;
+    }
+
+    #login #imagem{
+        float: left;
+        width: 40%;
+        height: 100%;
+        background-position: center center;
+    }
+
+    #login #formulario{
+        float: right;
+    }
+    
+}
