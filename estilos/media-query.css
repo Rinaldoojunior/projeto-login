@@ -1,13 +1,13 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 840px) {
     #login{
-        width: 80vw;
+        width: 90vw;
     }
 
     #login #imagem{
         float: left;
-        width: 40%;
+        width: 50%;
         height: 100%;
         background-position: center center;
     }

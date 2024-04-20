@@ -33,9 +33,10 @@ main{
 
 #login #imagem{
     display: block;
-    background: url(../imagens/mcrquadradag.png) no-repeat;
+    background: url(../imagens/mcrquadradag.jpg) no-repeat;
     height: 300px;
     background-size: cover;
+    background-position: center center;
     
 }
 
