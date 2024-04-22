@@ -26,7 +26,7 @@ main{
     transform: translate(-50%, -50%);
     background-color: white;
     width: 250px;
-    height: 550px;
+    height: 580px;
     border-radius: 20px;
     overflow: hidden;
 
@@ -53,3 +53,48 @@ main{
     margin-bottom: 10px;
 
 }
+
+form .campo{
+    background-color: green;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+form input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    border:  none;
+    cursor: pointer;
+}
+
+form input[type=submit]:hover{
+    background-color: rgb(55, 179, 55);
+}
+
+form .botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 5px;
+    padding-top: 5px;
+    width: 100%;
+    height: 40px;
+    background-color: green;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+form .botao:hover{
+    background-color: rgb(55, 179, 55);
+}
+
+form .botao i{
+    font-size: 0.8em;
+}
+
