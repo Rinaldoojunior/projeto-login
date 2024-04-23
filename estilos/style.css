@@ -56,9 +56,37 @@ main{
 
 form .campo{
     background-color: green;
-    height: 40px;
-    border-radius: 5px;
+    display: block;
+    width: 100%;
+    height: 38px;
+    border-radius: 8px;
     margin: 5px 0px;
+}
+
+.campo label{
+    display: none;
+}
+
+.campo i{
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+.campo input{
+    background-color: rgb(183, 243, 159);
+    font-size: 1em;
+    width:calc(100% - 48px);
+    height: 90%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-11px);
+}
+
+.campo input:focus-within{
+    background-color: white;
 }
 
 form input[type=submit] {
